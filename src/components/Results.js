@@ -7,17 +7,21 @@ class Results extends Component {
     }
 
     render() {
+        let { data } = this.props;
+
         return (
+
             <div>
-
-                <div>
-
-
+                 { data ? 
+                    <div key={data.gifURL}>
+                    <div> {data.quote} </div>
+                    <img src={data.gifURL} />
                 </div>
-
+                 : null }
             </div>
         );
     }
 }
 
 export default Results;
+

@@ -50,12 +50,23 @@ class App extends Component {
     axios.all([this.getQuote(), this.getGif()])
       .then(axios.spread((quote, gif) => {
         this.setState({ quote: quote.data.contents.quotes[0].quote });
-        this.setState({ gifURL: gif.data.data[0].embed_url })
+        this.setState({ gifURL: gif.data.data[0].images.original.url })
       }))
   }
+  getRandomGif() {
+    return axios.get('https://api.giphy.com/v1/gifs/random?api_key=' + GIPHY_API_KEY + '&tag=&rating=G');
+  }
 
+  getRandomQuote() {
+    return axios.get('http://quotes.rest/quote/random.json?api_key=' + QUOTE_API_KEY);
+  }
   getRandomResults = (e) => {
     e.preventDefault();
+    axios.all([this.getRandomQuote(), this.getRandomGif()])
+      .then(axios.spread((quote, gif) => {
+        this.setState({ quote: quote.data.contents.quote });
+        this.setState({ gifURL: gif.data.data.image_url })
+      }))
   }
   render() {
     return (
@@ -73,7 +84,9 @@ class App extends Component {
           <button onClick={this.getResults} type="submit">Go</button>
         </form>
         <button onClick={this.getRandomResults} type="submit">Random</button>
+        <Results data={this.state} />
       </div>
+
     );
   }
 }
