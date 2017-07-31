@@ -5,7 +5,6 @@ import '../styles/App.css';
 import Results from './Results';
 import moods from '../data.js';
 
-
 const QUOTE_API_KEY = 'mEx4TEI7AHb_xa9U0fGSMQeF';
 const GIPHY_API_KEY = '47f2aabc194a4fa9940ad49a3dd27081';
 
@@ -72,11 +71,8 @@ class App extends Component {
             <option value="lazy">Lazy</option>
           </select>
           <button onClick={this.getResults} type="submit">Go</button>
-
         </form>
         <button onClick={this.getRandomResults} type="submit">Random</button>
-
-
       </div>
     );
   }
