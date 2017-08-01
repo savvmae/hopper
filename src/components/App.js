@@ -62,10 +62,10 @@ class App extends Component {
   }
   getRandomResults = (e) => {
     e.preventDefault();
+
     axios.all([this.getRandomQuote(), this.getRandomGif()])
       .then(axios.spread((quote, gif) => {
-        this.setState({ quote: quote.data.contents.quote });
-        this.setState({ gifURL: gif.data.data.image_url })
+        this.setState({ quote: quote.data.contents.quote, gifURL: gif.data.data.image_url, mood: "random" });
       }))
   }
   render() {
