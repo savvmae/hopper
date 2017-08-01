@@ -1,0 +1,63 @@
+.navbar {
+	display: flex;
+	justify-content: center;
+	background-image: url("../img/logo.svg");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 25%;
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-between;
+	height: 60px;
+	bottom: 0px;
+	position: absolute;
+	background-color: #ee6e73;
+}
+
+.footerText {
+	width: 70%;
+	text-align: left;
+	vertical-align: center;
+	font-size: 10px;
+	margin-left: 16px;
+	margin-top: 12px;
+}
+
+.roxyGif {
+	width: 5%;
+	height: 35px;
+	background-image: url("../img/Roxy.gif");
+	background-size: contain;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	margin-top: 12px;
+}
+
+.savGif {
+	width: 5%;
+	height: 35px;
+	background-image: url("../img/Savannah.gif");
+	background-size: contain;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	margin-top: 12px;
+}
+
+.dannyGif {
+	width: 5%;
+	height: 35px;
+	background-image: url("../img/Danny.gif");
+	background-size: contain;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	margin-top: 12px;
+}
+
+.footer {
+
+}
