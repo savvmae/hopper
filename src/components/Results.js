@@ -13,10 +13,10 @@ class Results extends Component {
 
             <div>
                 {data && data.mood === "gloomy" ?
-                    <div>
-                        <div className="col s6 offset-3 yellow darken-2" key={data.gifURL}>
-                            <div> {data.quote} </div>
-                            <img src={data.gifURL} />
+                    <div className="column yellow darken-2">
+                        <div key={data.gifURL}>
+                            <div className="col s6 offset-2"> {data.quote} </div>
+                            <img className="col s6 offset-2" src={data.gifURL} />
                         </div></div>
                     : data && data.mood === "energetic" ?
                         <div>
