@@ -1,3 +1,6 @@
+//this was just a thought, I was hoping to add an anchor tag to our gif portraits.
+//we will delete before submission
+
 var a = document.createElement('a');
 a.setAttribute('href', 'https://github.com/roxyfaye');
 a.innerHTML = '';

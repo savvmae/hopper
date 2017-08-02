@@ -31,8 +31,8 @@ footer {
 }
 
 .roxyGif {
-	width: 4%;
-	height: 56px;
+	width: 3.5%;
+	height: 40px;
 	background-image: url("../img/Roxy.gif");
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -41,8 +41,8 @@ footer {
 }
 
 .savGif {
-	width: 4%;
-	height: 56px;
+	width: 3.5%;
+	height: 40px;
 	background-image: url("../img/Savannah.gif");
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -51,8 +51,8 @@ footer {
 }
 
 .dannyGif {
-	width: 4%;
-	height: 56px;
+	width: 3.5%;
+	height: 40px;
 	background-image: url("../img/Danny.gif");
 	background-size: contain;
 	background-repeat: no-repeat;
