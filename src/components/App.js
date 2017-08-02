@@ -72,8 +72,11 @@ class App extends Component {
     return (
       <div>
         <form>
+          <div className="choose">
+          <label className="dropdown-label">All the Feels</label>
+        </div>
           <select className="browser-default" onChange={this.handleMoodChange} id="mood" value={this.state.value}>
-            <option selected="true" disabled="disabled" value="">Choose your mood</option>
+            <option selected="true" disabled="disabled" value="">Choose Your Mood Here</option>
             <option value="studious">Studious</option>
             <option value="creative">Creative</option>
             <option value="romantic">Romantic</option>
@@ -81,9 +84,13 @@ class App extends Component {
             <option value="energetic">Energetic</option>
             <option value="lazy">Lazy</option>
           </select>
-          <button onClick={this.getResults} type="submit">Go</button>
+          <div className="submit">
+          <button onClick={this.getResults} type="submit" className="waves-effect waves-light btn">Choose Mood and Click Here</button>
+        </div>
         </form>
-        <button onClick={this.getRandomResults} type="submit">Random</button>
+        <div className="random-button">
+        <button onClick={this.getRandomResults} type="submit" className="waves-effect waves-light btn-large">...or Surprise Me!</button>
+        </div>
         <Results data={this.state} />
       </div>
 

@@ -22,17 +22,44 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+#mood{
+  padding: 10%;
+}
+.submit{
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+}
+.random-button{
+  font-family: Neucha;
+  display: flex;
+  justify-content: center;
+  padding: 1%;
 
-.quote {
-  font-size: 40px;
+}
+.choose{
   text-align: center;
 }
-
-.gif {
-    width: 100%;
+.dropdown-label{
+  font-size: 40px;
+  padding: 10%;
 }
+
+.main {
+  padding-bottom: 10%;
+}
+
+.quote {
+  font-family: Neucha;
+  font-size: 40px;
+  text-align: center;
+  padding: 5%;
+}
+
 
 .gifURL {
     margin: auto;
     width: 100%;
+    padding: 10%;
+    margin-bottom: 10%;
 }
