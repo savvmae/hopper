@@ -16,7 +16,7 @@ export default class BaseLayout extends Component {
 
         <footer>
           <div className='footer footerText'>
-            <p>Code by <a href='https://github.com/savvmae' alt='Savannah Cosby'>Savannah Cosby</a>, <a href='https://github.com/roxyfaye' alt='GitHub for Roxy DeSantis-Nunally'>Roxy DeSantis-Nunally</a>, and <a href='https://github.com/danjsul3' alt='GitHub for Danny Sullivan'>Danny Sullivan</a> in collaboration with The Iron Yard</p>
+            <p>Code by <a href='http://www.savannahcosby.com' alt='Portfolio for Savannah Cosby'>Savannah Cosby</a>, <a href='https://github.com/roxyfaye' alt='GitHub for Roxy DeSantis-Nunally'>Roxy DeSantis-Nunally</a>, and <a href='http://danjsul3.io' alt='Portfolio for Danny Sullivan'>Danny Sullivan</a></p>
           </div>
           <div id='roxyGif' className='footer roxyGif'>
           </div>
