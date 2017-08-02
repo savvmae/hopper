@@ -5,7 +5,7 @@
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
-	height: 25%;
+	height: 100px;
 }
 
 footer {
@@ -13,7 +13,7 @@ footer {
 	flex-direction: row;
 	width: 100%;
 	justify-content: space-between;
-	height: 60px;
+	height: 75px;
 	bottom: 0px;
 	position: fixed;
 	background-color: #ee6e73;
@@ -25,12 +25,12 @@ footer {
 	vertical-align: center;
 	font-size: 10px;
 	margin-left: 16px;
-	margin-top: 12px;
+	margin-top: 20px;
 }
 
 .roxyGif {
-	width: 5%;
-	height: 35px;
+	width: 4%;
+	height: 56px;
 	background-image: url("../img/Roxy.gif");
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -39,8 +39,8 @@ footer {
 }
 
 .savGif {
-	width: 5%;
-	height: 35px;
+	width: 4%;
+	height: 56px;
 	background-image: url("../img/Savannah.gif");
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -49,8 +49,8 @@ footer {
 }
 
 .dannyGif {
-	width: 5%;
-	height: 35px;
+	width: 4%;
+	height: 56px;
 	background-image: url("../img/Danny.gif");
 	background-size: contain;
 	background-repeat: no-repeat;

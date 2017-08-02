@@ -9,7 +9,7 @@ export default class BaseLayout extends Component {
     return (
       <div className="base">
         <nav className="navbar">
-          <img src="../img/logo.svg" />
+      
         </nav>
 
         {this.props.children}
