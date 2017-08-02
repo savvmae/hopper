@@ -24,6 +24,11 @@
 }
 #mood{
   padding: 10%;
+    width: 24%;
+    margin: auto;
+    background: #26a69a;
+    color: white;
+    font-size: 22px;
 }
 .submit{
   display: flex;
