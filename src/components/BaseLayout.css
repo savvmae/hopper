@@ -13,7 +13,7 @@ footer {
 	flex-direction: row;
 	width: 100%;
 	justify-content: right;
-	height: 45px;
+	height: 60px;
 	bottom: 0px;
 	position: fixed;
 	background-color: #ee6e73;
@@ -24,43 +24,48 @@ footer {
 	width: 85vw;
 	text-align: left;
 	vertical-align: center;
-	font-size: 0.6em;
+	font-size: 1em;
 	margin-left: 2vw;
-	margin-top: 10px;
 	padding-right: 30vw;
+	margin-top: 4px;
 }
 
 .roxyGif {
-	width: 3.5%;
+	width: 36px;
 	height: 40px;
 	background-image: url("../img/Roxy.gif");
 	background-size: contain;
 	background-repeat: no-repeat;
 	border-radius: 50%;
-	margin-top: 4px;
+	margin-top: 10px;
 }
 
 .savGif {
-	width: 3.5%;
+	width: 36px;
 	height: 40px;
 	background-image: url("../img/Savannah.gif");
 	background-size: contain;
 	background-repeat: no-repeat;
 	border-radius: 50%;
-	margin-top: 4px;
+	margin-top: 10px;
 }
 
 .dannyGif {
-	width: 3.5%;
+	width: 36px;
 	height: 40px;
 	background-image: url("../img/Danny.gif");
 	background-size: contain;
 	background-repeat: no-repeat;
 	border-radius: 50%;
-	margin-top: 4px;
+	margin-top: 10px;
 }
 
 .footerText a{
 	text-decoration: none;
 	color: #2BBBAD;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #5b84d2;
 }
